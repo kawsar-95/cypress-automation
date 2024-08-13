@@ -19,12 +19,15 @@
   "author": "RahulShetty",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
     "cypress": "^13.13.2",
     "mocha": "^10.1.0",
     "multiple-cucumber-html-reporter": "^3.0.1"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
-    "@cypress/browserify-preprocessor": "latest"
+    "@cypress/browserify-preprocessor": "latest",
+    "neat-csv": "^7.0.0"
   }
 }
