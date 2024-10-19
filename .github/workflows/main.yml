@@ -24,5 +24,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install cucumber-json-formatter
+        run: npm install -g cucumber-json-formatter
+
       - name: Run Cypress tests
         run: npx cypress run
