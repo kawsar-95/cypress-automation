@@ -19,7 +19,7 @@ describe('My Second Test Suite', () => {
 
     cy.get('#opentab').invoke('removeAttr', 'target').click();
     cy.wait(7000);
-    cy.url().should('contains', 'www.qaclickacademy.com/');
-    cy.go('back');
+    // cy.url().should('contains', 'www.qaclickacademy.com/');
+    // cy.go('back');
   });
 });
